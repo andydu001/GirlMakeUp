@@ -131,8 +131,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onQueryTextSubmit(String s) {
 
-                Dictionary<String, String> dictionary = new Hashtable<>();
-                Dictionary<String, String> dictionary_next = dixtionary(dictionary);
+
+                Dictionary<String, String> dictionary_next = dixtionary(new Hashtable<>());
                 /*
                  here we process the dictionary
 
